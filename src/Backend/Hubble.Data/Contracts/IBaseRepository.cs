@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Hubble.Data.Repositories
+namespace Hubble.Data.Repositories.Contracts
 {
     public interface IBaseRepository<TEntity> : IDisposable where TEntity: class
     {
